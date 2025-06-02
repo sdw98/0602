@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         // "happy", "angry", "sad", etc.
-        String mood = "tired";
+        String mood = "angry";
 
         switch (mood) {
-            case "happy":
+            case "happy":           //mood == "happy" 생략
                 System.out.println("나는 행복하다");
 
             case "tired":
@@ -13,6 +13,9 @@ public class Main {
             case "sad":
                 System.out.println("나는 슬프다");
                 break;
+
+            default:
+                System.out.println("표현불가");
         }
     }
 }
