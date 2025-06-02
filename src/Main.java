@@ -17,6 +17,5 @@ public class Main {
 
         b %= 2;
         System.out.println(b);
-
     }
 }
